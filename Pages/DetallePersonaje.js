@@ -1,0 +1,6 @@
+
+const DetallePersonaje = () => {
+
+}
+
+export { DetallePersonaje }

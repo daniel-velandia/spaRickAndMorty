@@ -1,0 +1,54 @@
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.my-brand-logo {
+    height: -webkit-fill-available;
+}
+
+.my-container, .my-container-404 {
+    margin: 20px auto;
+}
+
+.my-container-404 {
+    height: 68vh;
+    display: flex;
+    align-items: center;
+}
+
+.my-img {
+    vertical-align: middle;
+}
+
+.my-footer-row {
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .my-container-404 .row {
+        display: flex;
+        align-items: center;
+    }
+
+    .my-footer-row {
+        text-align: initial;
+    }
+
+    .my-footer-row img {
+        margin-top: 15%;
+
+    }
+}
+
+@media (min-width: 993px) {
+    .my-brand-logo {
+      margin: 4px 10px;
+    }
+}

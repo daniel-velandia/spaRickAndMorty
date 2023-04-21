@@ -1,0 +1,7 @@
+
+const API = 'https://rickandmortyapi.com/api'
+const OBTENER_PERSONAJES_ENDPOINT = API + '/character'
+const OBTENER_EPISODIOS_ENDPOINT = API + '/episode'
+const OBTENER_LUGARES_ENDPOINT = API + '/location'
+
+export { OBTENER_PERSONAJES_ENDPOINT, OBTENER_EPISODIOS_ENDPOINT, OBTENER_LUGARES_ENDPOINT }
