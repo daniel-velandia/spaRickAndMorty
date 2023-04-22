@@ -7,7 +7,7 @@ const CardPersonaje = (personaje) =>
             <div class="card-image">
                 <img src="${personaje.image}">
                 <span class="card-title">${personaje.name}</span>
-                <a class="btn-floating halfway-fab waves-effect waves-light teal" href="#/detallePersonaje/">
+                <a class="btn-floating halfway-fab waves-effect waves-light teal" href="#/${personaje.id}/">
                     <i class="material-icons">add</i>
                 </a>
             </div>

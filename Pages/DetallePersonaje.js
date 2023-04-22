@@ -1,6 +1,0 @@
-
-const DetallePersonaje = () => {
-
-}
-
-export { DetallePersonaje }

@@ -8,7 +8,7 @@ import getHash from "../Connections/Helpers/getHash.js"
 
 const rutas = {
     "/": VerPersonajes,
-    "/detallePersonaje": DetallePersonaje
+    "/:id": DetallePersonaje
 }
 
 const App = async () => {

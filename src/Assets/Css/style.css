@@ -1,0 +1,112 @@
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.my-brand-logo {
+    height: -webkit-fill-available;
+}
+
+.my-container, .my-container-404 {
+    margin: 50px auto;
+}
+
+.my-container-404 {
+    height: 68vh;
+    display: flex;
+    align-items: center;
+}
+
+.my-img {
+    vertical-align: middle;
+}
+
+.my-footer-row {
+    text-align: center;
+}
+
+.my-row-detalle img {
+    height: 100%;
+    width: 100%;
+}
+
+.my-container .card-panel {
+    padding: 0px;
+}
+
+.my-container-img {
+    padding: 0px !important;
+}
+
+.my-col-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-content-card {
+    width: max-content;
+    margin-bottom: 20px;
+}
+
+.my-header-card {
+    font-weight: bold;
+}
+
+.my-alive, .my-dead { 
+    display: inline-block !important;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.my-alive {
+    background-color: green;
+}
+
+.my-dead {
+    background-color: red;
+}
+
+.my-content-card > p {
+    margin: 0px;
+}
+
+.my-label-card {
+    margin-top: 10px !important;
+    font-weight: bold;
+    color: gray;
+}
+
+@media (min-width: 600px) {
+    .my-container-404 .row {
+        display: flex;
+        align-items: center;
+    }
+
+    .my-footer-row {
+        text-align: initial;
+    }
+
+    .my-footer-row img {
+        margin-top: 15%;
+    }
+
+    .my-row-detalle {
+        display: flex;
+        align-items: stretch;
+    }
+}
+
+@media (min-width: 993px) {
+    .my-brand-logo {
+      margin: 4px 10px;
+    }
+}
