@@ -1,7 +1,7 @@
 
 export default (ruta) => {
 
-    if(ruta.length < 3) {
+    if(ruta.length < 4) {
 
         return (ruta === '/') ? ruta : '/:id'
     }

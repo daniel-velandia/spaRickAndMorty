@@ -2,7 +2,19 @@ import { OBTENER_PERSONAJES_ENDPOINT } from './endPoints.js'
 
 export default async (id) => {
 
-    const apiUrl = (id) ? `${OBTENER_PERSONAJES_ENDPOINT}${id}` : OBTENER_PERSONAJES_ENDPOINT
+    let apiUrl = OBTENER_PERSONAJES_ENDPOINT
+
+    if (id) {
+
+        if(id.length < 5) {
+
+            apiUrl = `${OBTENER_PERSONAJES_ENDPOINT}${id}`
+
+        } else {
+            
+            apiUrl = id
+        }
+    }
 
     try {
         

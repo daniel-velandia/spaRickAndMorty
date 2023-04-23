@@ -1,6 +1,6 @@
 import { App } from "./Routes/App.js"
 import './Assets/Css/style.css'
-import './Assets/Js/funtions.js'
+import './Assets/Js/main.js'
 
 console.log('spa corriendo...')
 

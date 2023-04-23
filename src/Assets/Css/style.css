@@ -85,6 +85,22 @@ main {
     color: gray;
 }
 
+.my-row-paginacion {
+    display: flex;
+    justify-content: center;
+}
+
+.my-btn-mas {
+    display: block;
+    margin: 0 auto;
+}
+
+.my-especie {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre;
+}
+
 @media (min-width: 600px) {
     .my-container-404 .row {
         display: flex;

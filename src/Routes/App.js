@@ -5,6 +5,7 @@ import { DetallePersonaje } from "../Pages/DetallePersonaje.js"
 import { Error404 } from "../Pages/Error404.js"
 import resolverRutas from "../Connections/Helpers/resolverRutas.js"
 import getHash from "../Connections/Helpers/getHash.js"
+import { CargarPersonajes } from "../Utils/CargarPersonajes.js"
 
 const rutas = {
     "/": VerPersonajes,
@@ -25,6 +26,8 @@ const App = async () => {
     const pagina = ( rutas[ruta] ) ? rutas[ruta] : Error404
 
     main.innerHTML = await pagina()
+
+    if(ruta === '/') {CargarPersonajes()}
 }
 
 export { App }

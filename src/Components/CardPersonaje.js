@@ -13,7 +13,7 @@ const CardPersonaje = (personaje) =>
             </div>
             <div class="card-content">
                 <p>${personaje.status}</p>
-                <p>${personaje.species}</p>
+                <p class="my-especie">${personaje.species}</p>
             </div>
         </div>
     </div>
